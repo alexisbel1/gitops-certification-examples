@@ -15,7 +15,7 @@ spec:
         app: summer-k8s-app
     spec:
       containers:
-      - name: webserver-simple2
+      - name: webserver-simple
         image: docker.io/kostiscodefresh/gitops-canary-app:v2.0
         imagePullPolicy: Always
         ports:
